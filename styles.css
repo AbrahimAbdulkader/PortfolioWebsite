@@ -145,7 +145,7 @@ p {
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #skills .section-title {
@@ -159,8 +159,15 @@ p {
 }
 
 #skills .section-title span {
-    color: crimson;
+    color: red;
 }
+
+#skills .skills-programming span {
+    color: #d73b3e;
+}
+
+
+
 
 
 
@@ -172,7 +179,7 @@ p {
     margin-top: 50px;
 }
 
-#skills .skills-item {
+#skills .skills-item { 
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -180,7 +187,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./img/Study.jpeg);
+    background-image: url(./img/CSRed.webp);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -196,7 +203,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .8;
+    opacity: 0.8;
     z-index: -1;
 }
 
