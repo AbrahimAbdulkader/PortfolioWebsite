@@ -173,6 +173,11 @@ p {
     padding: 50px 0;
 }
 
+#skills .skills-top {
+    width: 500px;
+    max-width: 0 auto;
+}
+
 #skills .section-title {
     font-size: 4rem;
     font-weight: 300;
@@ -225,7 +230,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
 }
 
@@ -611,7 +616,15 @@ p {
     padding-left: 20px;
 }
     /* End Contact */
-
-
-
 }
+/* End Media Query For Tablet */
+
+
+/* Media Query For Desktop */
+@media only screen and (min-width:1200px) {
+    #skills .skills-bottom .skills-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+} 
+/* End Media Query For Desktop */
